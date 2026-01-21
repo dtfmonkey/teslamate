@@ -11,6 +11,8 @@ msgstr ""
 "Language: hu\n"
 
 msgid "can't be blank"
+msgstr "nem lehet üres"
+
 
 ## From Ecto.Changeset.unique_constraint/3
 msgid "has already been taken"
