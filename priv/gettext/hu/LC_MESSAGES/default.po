@@ -10,18 +10,6 @@ msgid ""
 msgstr ""
 "Language: hu\n"
 
-## This file is a PO Template file.
-##
-## `msgid`s here are often extracted from source code.
-## Add new translations manually only if they're dynamic
-## translations that can't be statically extracted.
-##
-## Run `mix gettext.extract` to bring this file up to
-## date. Leave `msgstr`s empty as changing them here as no
-## effect: edit them in PO (`.po`) files instead.
-msgid ""
-msgstr ""
-
 
 #: lib/teslamate_web/live/car_live/summary.html.heex:220
 #, elixir-autogen, elixir-format
@@ -539,6 +527,11 @@ msgstr "TeslaFi Importálás"
 #: lib/teslamate_web/live/import_live/index.html.heex:10
 #, elixir-format, elixir-autogen
 msgid "Found %{count} file"
+msgid_plural "Found %{count} files"
+msgstr[0] ""
+msgstr[1] ""
+
+
 #: lib/teslamate_web/live/import_live/index.ex:34
 #: lib/teslamate_web/live/import_live/index.html.heex:89
 #, elixir-autogen, elixir-format
@@ -605,6 +598,11 @@ msgstr "Összesen"
 #: lib/teslamate_web/live/geofence_live/form.html.heex:163
 #, elixir-format, elixir-autogen
 msgid "There is <strong>%{n} charging session</strong> at this location for which no costs have been added yet."
+msgid_plural "There are <strong>%{n} charging sessions</strong> at this location for which no costs have been added yet."
+msgstr[0] ""
+msgstr[1] ""
+
+
 #: lib/teslamate_web/live/geofence_live/form.html.heex:177
 #, elixir-autogen, elixir-format
 msgid "Add costs retroactively"
